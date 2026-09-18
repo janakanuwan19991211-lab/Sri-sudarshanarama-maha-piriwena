@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ශ්‍රී සුදර්ශනාරාම මහා පිරිවෙන | විෂය අධ්‍යාපනය</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700;800&display=swap');
+*{box-sizing:border-box}
+body{margin:0;background:#fffaf0;color:#3d2a18;font-family:'Noto Sans Sinhala',Arial,sans-serif}
+nav{position:sticky;top:0;z-index:20;background:#382517;padding:12px 5%;display:flex;gap:24px;overflow:auto;white-space:nowrap}
+nav a{color:#fff;text-decoration:none;font-weight:600}
+.hero{text-align:center;padding:50px 20px;background:linear-gradient(135deg,#f2d99d,#fffaf0)}
+.hero .logo{font-size:52px}.hero h1{font-size:clamp(28px,6vw,50px);margin:8px 0;color:#5c3917}.hero p{font-size:20px}
+.container{max-width:1050px;margin:auto;padding:40px 6%}
+.card{background:#fff;border-radius:24px;padding:30px;margin-bottom:28px;box-shadow:0 8px 30px rgba(80,50,20,.10);text-align:center}
+h2{color:#68421b}
+.pdf-box{margin-top:25px;background:#f1eee8;border-radius:16px;overflow:hidden;border:1px solid #d7c39d}
+iframe{width:100%;height:72vh;min-height:550px;border:0;display:block}
+.btn{display:inline-block;margin:16px 6px 0;padding:13px 22px;border-radius:28px;background:#6b431c;color:#fff;text-decoration:none;font-weight:700}
+.btn.secondary{background:#9a712d}
+.small{font-size:14px;color:#75634f}
+footer{background:#2e1d0e;color:#ead9b5;text-align:center;padding:22px}
+@media(max-width:650px){.card{padding:22px 15px}iframe{height:65vh;min-height:450px}}
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#home">මුල් පිටුව</a>
+<a href="#about">අප ගැන</a>
+<a href="#education">විෂය අධ්‍යාපනය</a>
+<a href="#math">ගණිතය</a>
+<a href="#contact">සම්බන්ධ වන්න</a>
+</nav>
+
+<header class="hero" id="home">
+<div class="logo">☸️</div>
+<h1>ශ්‍රී සුදර්ශනාරාම මහා පිරිවෙන</h1>
+<p>පොල්ලඹේගොඩ</p>
+</header>
+
+<main class="container">
+<section class="card" id="about">
+<h2>බෞද්ධ අධ්‍යාපනය</h2>
+<p>බුදු දහම, සදාචාරය සහ ආධ්‍යාත්මික වටිනාකම් සමඟ දැනුම වර්ධනය කරන අධ්‍යාපනික පරිසරයක්.</p>
+</section>
+
+<section class="card" id="education">
+<h2>📚 විෂය අධ්‍යාපනය</h2>
+<p>පිරිවෙන් අධ්‍යාපනය සඳහා විවිධ විෂයන්ට අදාළ පෙළපොත් සහ අධ්‍යාපනික සම්පත්.</p>
+</section>
+
+<section class="card" id="math">
+<h2>📖 ගණිතය - පෙළපොත 2</h2>
+<p>පහතින් PDF එක website එක තුළින් කියවන්න. අවශ්‍ය නම් Download කරන්න.</p>
+
+<div class="pdf-box">
+<iframe src="pdf/ganithaya-pelapotha-2.pdf" title="ගණිතය - පෙළපොත 2">
+</iframe>
+</div>
+
+<a class="btn" href="pdf/ganithaya-pelapotha-2.pdf" download="ganithaya-pelapotha-2.pdf">
+⬇️ PDF Download කරන්න
+</a>
+
+<a class="btn secondary" href="pdf/ganithaya-pelapotha-2.pdf" target="_blank">
+📖 වෙනම PDF එක Open කරන්න
+</a>
+
+<p class="small">
+PDF file එක <b>pdf</b> folder එක ඇතුළේ <b>ganithaya-pelapotha-2.pdf</b> නමින් තබන්න.
+HTML එක සහ pdf folder එක එකම website folder එකේ තිබිය යුතුයි.
+</p>
+</section>
+
+<section class="card" id="contact">
+<h2>📍 සම්බන්ධ වන්න</h2>
+<p><b>ශ්‍රී සුදර්ශනාරාම මහා පිරිවෙන</b></p>
+<p>පොල්ලඹේගොඩ</p>
+</section>
+</main>
+
+<footer>© 2026 ශ්‍රී සුදර්ශනාරාම මහා පිරිවෙන - පොල්ලඹේගොඩ</footer>
+</body>
+</html>
